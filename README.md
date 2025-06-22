@@ -1,4 +1,4 @@
-# 🛒 Amazon-style Product Layout
+# 🛒 Clone-the-Card
 
 A responsive HTML and CSS project that replicates the layout of an Amazon product detail page. This includes:
 - Product image and thumbnails
@@ -7,20 +7,21 @@ A responsive HTML and CSS project that replicates the layout of an Amazon produc
 
 ## 📸 Preview
 
-![Preview](static/clone_the_card.png)
+![Preview](Screenshots/clone_the_card.png)
 
 > 
 ---
 
 ## 📂 Folder Structure
 
-\`\`\`
+```
 Clone-The-Card/
+├── static/        # static files
 ├── index.html        # Main HTML file
-├── styles.css        # CSS styling
-├── static/clone_the_card.png    # (Optional) Layout preview image
+├── stylescss         # CSS styling
+├── Screenshots/clone_the_card.png       # (Optional) Layout preview image
 └── README.md         # Project documentation
-\`\`\`
+```
 
 ---
 
@@ -28,19 +29,19 @@ Clone-The-Card/
 
 ### 1. Clone the Repository
 
-\`\`\`bash
+```
 git clone https://github.com/your-username/Clone-The-Card.git
 cd Clone-The-Card
-\`\`\`
+```
 
 ### 2. Open in Browser
 
 You can directly open `index.html` in any browser:
 
-\`\`\`bash
+```bash
 open index.html   # macOS
 start index.html  # Windows
-\`\`\`
+```
 
 ---
 
@@ -49,12 +50,6 @@ start index.html  # Windows
 - HTML5
 - CSS3 (Flexbox, Responsive Design)
 - Media Queries
-
----
-
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
